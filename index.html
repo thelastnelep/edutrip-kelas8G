@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>EduTrip - Home</title>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/framer-motion/10.12.0/framer-motion.min.js"></script>
+        <script src="https://cdn.tailwindcss.com"></script>
+        <style>
+            body {
+                background-color: aqua;
+                font-family: 'Courier New', Courier, monospace;
+                margin: 0;
+                padding: 0;
+                background-attachment: fixed; /* Enable parallax scrolling */
+                background-size: cover; /* Zoom in the background image */
+                background-position: center; /* Center the background image */
+            }
+
+            header {
+                background-color: black;
+                padding: 10px 0;
+                text-align: center;
+            }
+
+            header a {
+                color: white;
+                font-size: 20px;
+            }
+
+            header a:hover{
+                color:blue; 
+            }
+
+            h1 {
+                text-align: center;
+                margin-top: 50px;
+                font-size: 30px;
+                color: rgb(255, 255, 255);
+            }
+
+            nav h1:hover {
+                color: blue;
+            }
+
+            nav {
+                padding: 20px 10px; /* Increase padding */
+                background-color: rgb(255, 155, 74); /* Change the default background color */
+            }
+
+            nav h1, nav a {
+                font-size: 1.5rem; /* Increase font size */
+            }
+
+            nav:hover {
+                background-color: rgb(255, 148, 27); /* Change color on hover */
+                transition: background-color 0.3s ease; /* Smooth transition */
+            }
+
+            section {
+                background-color: white; /* Set background color to white */
+                color: black; /* Ensure text color is readable */
+            }
+
+            section:hover {
+                background-color: rgb(255, 165, 80); /* Change background color on hover */
+                transition: background-color 0.3s ease; /* Smooth transition */
+            }
+
+            .hover-section {
+                background-color: rgb(255, 183, 101); /* Default background color */
+                transition: background-color 0.3s ease; /* Smooth transition */
+            }
+
+            .hover-section:hover {
+                background-color: rgb(255, 165, 80); /* Change background color on hover */
+            }
+        </style>
+    </head>
+    <body class="relative" style="background-image: url('taiwan.jpg')">
+        <!-- Dark Overlay -->
+        <nav class="relative w-full bg-white shadow-md py-1 px-2 flex justify-between items-center fixed top-0">
+            <h1 style="font-family: 'Coolvetica', sans-serif;" class="text-2xl font-bold text-black hover:text-gray-800 hover:underline">Home</h1>
+            <div class="space-x-4">
+                <a href="agama.html" style="font-family: 'Coolvetica', sans-serif;" class="text-black-800 font-bold hover:text-black-500">Agama</a>
+                <a href="ppkn.html" style="font-family: 'Coolvetica', sans-serif;" class="text-black-800 font-bold hover:text-black-500">PPKN</a>
+                <a href="bahasa indonesia.html" style="font-family: 'Coolvetica', sans-serif;" class="text-black-800 font-bold hover:text-black-500">Bahasa Indonesia</a>
+                <a href="english.html" style="font-family: 'Coolvetica', sans-serif;" class="text-black-800 font-bold hover:text-black-500">English</a>
+                <a href="ips.html" style="font-family: 'Coolvetica', sans-serif;" class="text-black-800 font-bold hover:text-black-500">IPS</a>
+                <a href="mandarin.html" style="font-family: 'Coolvetica', sans-serif;" class="text-black-800 font-bold hover:text-black-500">Mandarin</a>
+            </div>
+        </nav>
+    
+        <main class="relative flex flex-col items-center justify-center min-h-screen p-4 mt-20 text-white">
+            <h1 style="font-family: 'Coolvetica', sans-serif;" class="text-7xl font-bold hover:text-orange-400">Edutrip Taiwan, Hualien</h1>
+            <p style="font-family: 'Arial', sans-serif;" class="text-lg mt-4 text-center max-w-xl hover:text-orange-300">
+                Learn about the Edutrip to Hualien, Taiwan.
+            </p>
+        </main>
+
+        <!-- New Section -->
+        <section class="hover-section bg-gray-100 py-8 px-4 flex flex-col items-center">
+            <h2 style="font-family: 'Coolvetica', sans-serif;" class="text-3xl font-bold text-center mb-6">Why Visit Hualien?</h2>
+            <div class="flex items-center w-full">
+                <div class="w-2/3">
+                    <p class="text-2xl" style="font-family: 'Google Sans', sans-serif;" class="text-lg text-left">
+                        In this Edutrip, we travelled to Hualien, Hualien is a beautiful place with its breathtaking natural beauty and vibrant culture. Hualien offered breathtaking experiences such as the Qixingtan Scenic Area and Beach, which was known for its amazing view and half-moon shape. The Dongdamen Night Market is a night market with a variety of stalls ranging from Taiwanese food like Wonton and Xiao Long Bao to games like basketball. We tasted delicious Taiwanese cuisine like Xiao Long Bao and Wonton. We also participated in educational activities like making mochi at the Amis Mochi Factory. This city, offered a relaxed, small-town atmosphere with many different astonishing places with the delicious food and charming night markets.
+                    </p>
+                </div>
+                <div class="w-1/3 pl-4">
+                    <img src="hualien.png" alt="Hualien Scenery" class="rounded-lg shadow-md" style="width: 80%; height: 50%;">
+                </div>
+            </div>
+            <div class="flex items-center w-full mt-4">
+                <div class="w-1/3 pr-4">
+                    <img src="school.png" alt="Stella Maris Ursuline School" class="rounded-lg shadow-md" style="width: 80%; height: auto;">
+                </div>
+                <div class="w-2/3">
+                    <p class="text-2xl" class="text-lg text-right" style="font-family: 'Arial', sans-serif;">
+                        Inside Hualien, we also visited Stella Maris Ursuline High School. It is a really big school with plenty of students, the students and teachers were really friendly and welcoming. Stella Maris Ursuline High School had 2 basketball courts, a volleyball court, a running track and 3 buildings. The students and teachers there teached us about different lessons and activities like physics and learning kabaddi.
+                    </p>
+                </div>
+            </div>
+        </section>
+    </body>
+</html>
